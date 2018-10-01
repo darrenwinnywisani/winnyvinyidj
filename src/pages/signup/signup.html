@@ -1,0 +1,51 @@
+<ion-header>
+
+  <ion-navbar text-center>
+    <ion-title> <ion-buttons style="float:left">
+      <button ion-button icon-only   (click)="goback()" ><ion-icon name="md-arrow-round-back"></ion-icon></button>
+    </ion-buttons>Create Account</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-item  class="item">
+    <ion-label color="dark" floating >First Name</ion-label>
+    <ion-icon name="person" item-left></ion-icon>
+    <ion-input [(ngModel)]="firstName" type="text" ></ion-input>
+  </ion-item>
+
+  <ion-item  class="item">
+    <ion-label color="dark" floating >Last Name</ion-label>
+    <ion-icon name="person" item-left></ion-icon>
+      <ion-input [(ngModel)]="lastName" type="text" ></ion-input>
+  </ion-item>
+
+
+  <ion-item  class="item">
+    <ion-label color="dark" floating >Email</ion-label>
+    <ion-icon name="mail" item-left></ion-icon>
+    <ion-input [(ngModel)]="email" type="email" ></ion-input>
+  </ion-item>
+
+    <ion-item  class="item">
+        <ion-label color="dark" floating >Password</ion-label>
+        <ion-icon name="lock" item-left></ion-icon>
+        <ion-input [(ngModel)]="password" type="password" ></ion-input>
+      </ion-item>
+
+      <ion-item  class="item">
+          <ion-label color="dark" floating >Confirm Password</ion-label>
+          <ion-icon name="lock" item-left></ion-icon>
+          <ion-input [(ngModel)]="confirm" type="password" ></ion-input>
+        </ion-item>
+
+<br>
+
+<div padding text-center>    
+   <button ion-button block round (click)="signUp()"> SUBMIT</button>     
+</div>
+
+</ion-content>

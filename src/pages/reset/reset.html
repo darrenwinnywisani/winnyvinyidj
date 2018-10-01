@@ -1,0 +1,19 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>reset</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+
+<ion-content padding>
+  <ion-item>
+    <ion-icon name="mail" item-start></ion-icon>
+    <ion-label stacked>Email</ion-label>
+  <ion-input  type="email"  [(ngModel)]="email"></ion-input>
+</ion-item>
+
+  <button ion-button block (click)="resetPassword()">Reset Password</button>
+  </ion-content>

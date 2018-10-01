@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-navbar>
+      <button ion-button menuToggle>
+          <ion-icon name="menu"></ion-icon>
+      </button>
+    <ion-title align="center" *ngIf="!isSearchbarOpened">Vinyl DJ App</ion-title>
+    <ion-searchbar *ngIf="isSearchbarOpened" showCancelButton="true" (ionCancel)="isSearchbarOpened=false" (search)="onSearch($even)"></ion-searchbar>
+    <ion-buttons end>
+      <button ion-button icon-only *ngIf="!isSearchbarOpened" (click)="isSearchbarOpened=true">
+        <ion-icon name="search"></ion-icon>
+      </button>
+    </ion-buttons>
+    </ion-navbar>
+      <div class="search" *ngIf="isSearchbarOpened">
+        <div *ngFor="let topic of topics">
+          <p>{{topic}}</p>
+        </div>
+      </div>
+</ion-header>
+<ion-content padding>
+    <ion-row>
+        <ion-col col-6 *ngFor="let dj of arrayDJ; let i=index">
+            <ion-card align="center">
+                <img class="img" src="{{dj.IMAGE}}" />
+                <h2>{{dj.NAME}}</h2>
+            </ion-card>
+        </ion-col>
+    </ion-row>
+</ion-content>
