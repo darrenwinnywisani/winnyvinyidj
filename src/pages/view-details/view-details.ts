@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { ViewCatalogProvider } from '../../providers/view-catalog/view-catalog';
+import { ListDjProvider } from '../../providers/list-dj/list-dj';
+import { HomePage } from '../home/home';
 
 /**
  * Generated class for the ViewDetailsPage page.
@@ -15,11 +18,15 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class ViewDetailsPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  dj:any;
+  ArrayDJ:any;
+  arrayDJ=[];
+  constructor(public navCtrl: NavController,private viewDJProfile:ListDjProvider, public navParams: NavParams,private viewDJ:ViewCatalogProvider){
+      this.arrayDJ=this.viewDJProfile.getAddedDj();
+      console.log('profile',this.arrayDJ);
   }
-
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad ViewDetailsPage');
+  goback(){
+    this.viewDJProfile.viewProfileDJ=[];
+    this.navCtrl.setRoot(HomePage);
   }
-
 }

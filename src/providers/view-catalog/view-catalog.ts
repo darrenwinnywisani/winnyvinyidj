@@ -9,6 +9,7 @@ import { Injectable } from '@angular/core';
 */
 @Injectable()
 export class ViewCatalogProvider {
+ 
   URL="assets/vinylDJ.json";
   constructor(public http: HttpClient) {
     console.log('Hello ViewCatalogProvider Provider');
@@ -16,4 +17,6 @@ export class ViewCatalogProvider {
   getDJs(){
     return this.http.get(this.URL);
   }
+
 }
+

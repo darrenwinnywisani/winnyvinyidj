@@ -17,6 +17,7 @@ import { ResetPage } from '../pages/reset/reset';
 import { LoginPage } from '../pages/login/login';
 import { ViewCatalogProvider } from '../providers/view-catalog/view-catalog';
 import { HttpClientModule } from '@angular/common/http';
+import { ListDjProvider } from '../providers/list-dj/list-dj';
 
 
 
@@ -42,7 +43,7 @@ firebase.initializeApp(config);
     SignupPage,
     LoginPage,
     UserprofilePage,
-   ViewDetailsPage
+    ViewDetailsPage
 
   ],
   imports: [
@@ -72,6 +73,7 @@ firebase.initializeApp(config);
     AuthProvider,
     AccountProvider,
     ViewCatalogProvider,
+    ListDjProvider,
 
   ]
 })

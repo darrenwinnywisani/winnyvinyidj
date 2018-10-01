@@ -5,7 +5,10 @@
         "IMAGE":"https://idmmag.com/wp-content/uploads/2018/07/djfresh_02.jpg",
 	    "DESCRIPTION":"Thato Sikwane,45 years of age, is a Botswana-South African radio DJ,music producer, entrepreneur and radio producer",
 	    "LOCATION":"Johannesburg,SA",
-        "EMAIL":"booking@djfresh.com"
+        "EMAIL":"booking@djfresh.com",
+		"CONTACT":"N/A",
+        "Clip Link":"https://youtu.be/wXzx80xGGsY"
+        
 		
 	},
 	{
@@ -14,7 +17,10 @@
         "IMAGE":"http://www.musiclink.co.za/wp-content/uploads/2015/08/10440134_10152497734904424_47752406896017945_n-639x400.jpg",
 		"DESCRIPTION":"Bonginkosi Mdlongwa,50 years of age, is a South African recording artist,record,DJ,and businessman.", 
 		"LOCATION":"Johannesburg,SA",
-		"EMAIL":"booking@kalawa.com"
+        "EMAIL":"booking@kalawa.com",
+		"CONTACT":"N/A",
+        "Clip Link":"https://youtu.be/rBTdxUqye8k"
+
 	},
 	{  
         "ID":3,
@@ -23,7 +29,8 @@
 		"DESCRIPTION":"Themba Mbongeni Nkosi, is a South African DJ,music producer and radio presenter. He is known mostly for playing house music.",
 		"LOCATION":"Johannesburg,SA",
         "EMAIL":"BOOKINGS@EUPHONIK.com",
-        "CONTACT":"0797993736"
+        "CONTACT":"0797993736",
+        "Clip Link":"https://youtu.be/RMjH6monjQg "
 	},
     {
         "ID":4,
@@ -32,16 +39,19 @@
         "DESCRIPTION":"Nkosinathi Innocent Maphumulo, is a South African DJ, record producer, singer,and songwriter.",
         "LOCATION":"Johannesburg,SA",
         "GENRES":"House, afro house, deep house",
-        "CONTACT":"0734206260"
+        "CONTACT":"0734206260",
+        "Clip Link":"https://youtu.be/SGqg_ZzThDU"
     },
     {
         "ID":5,
         "NAME":"DA CAPO",
         "IMAGE":"https://pbs.twimg.com/media/DTVxDaMXUAAkdGW.jpg",
         "DESCRIPTION":"Culolethu Zulu was born on the 20 August 1990 in Kwa-Zulu-Natal, is a South African producer, DJ and remixer.",
-        "LOCATION":"Eshowe",
+        "LOCATION":"Eshowe,KZN",
         "GENRES":"House, afro house, deep house",
-        "EMAIL":"booking@soulisticmusic.com"
+        "EMAIL":"booking@soulisticmusic.com",
+		"CONTACT":"N/A",
+        "Clip Link":"https://youtu.be/7aGUJnpJiAg"
     },
     {
         "ID":6,
@@ -50,7 +60,9 @@
         "DESCRIPTION":"Nkosinathi Innocent Maphumulo, is a South African DJ, record producer, singer, and songwriter.",
         "LOCATION":"Johannesburg,SA",
         "GENRES":"House, deep house",
-        "EMAIL":"booking@desogmusic.com"
+        "EMAIL":"booking@desogmusic.com",
+		"CONTACT":"N/A",
+        "Clip Link":"https://youtu.be/o4R0SyhEQik"
    },
    {
         "ID":7,
@@ -59,85 +71,102 @@
         "DESCRIPTION":"Themba Sunnyboy Sekowe, is a South African record producer and DJ who sometimes feature vocals in songs.",
         "LOCATION":"Pretoria,SA",
         "GENRES":"House, Hip-Hop",
-        "EMAIL":"boobing@djmaphorisa.com"
+        "EMAIL":"boobing@djmaphorisa.com",
+		"CONTACT":"N/A",
+        "Clip Link":"https://youtu.be/nbYfjstimOo"
    },
    {
         "ID":8,
-        "DESCRIPTION":"Singapore Tsiane , known as Dj Singapore",
         "NAME":"DJ SINGAPORE", 
         "IMAGE":"https://zahits.com/wp-content/uploads/2018/03/DJ_Ace_SA_Singass_Pista_De_Baile_Dance_Floor.jpg",
+        "DESCRIPTION":"Singapore Tsiane , known as Dj Singapore",
         "LOCATION":"Marble Hall,Limpopo  ,South Africa",
-        "EMAIL":"djsingass@gmail.com"
+        "EMAIL":"djsingass@gmail.com",
+		"CONTACT":"N/A",
+        "Clip Link":"https://youtu.be/ZOD9fuhR0II"
    },
    {
         "ID":10,
-        "DESCRIPTION":"Robert aka Dj Murder teamed up with Thabo aka Smol to form Black Motion in 2010.", 
-        "IMAGE":"https://cdn.24.co.za/files/Cms/General/d/6816/8b98c27d449a474c94b937b05e1408f6.jpg",
         "NAME": "BLACK MOTION",
+        "IMAGE":"https://cdn.24.co.za/files/Cms/General/d/6816/8b98c27d449a474c94b937b05e1408f6.jpg",
+        "DESCRIPTION":"Robert aka Dj Murder teamed up with Thabo aka Smol to form Black Motion in 2010.", 
         "LOCATION" :"Soshanguve,Gauteng, ,South Africa",
-        "EMAIL":"bookings@spiritmotion.co.za"
+        "EMAIL":"bookings@spiritmotion.co.za",
+		"CONTACT":"N/A",
+        "Clip Link":"https://youtu.be/zHEc9uA2Zmw"
    },
    {
         "ID":11,
-        "DESCRIPTION":"Ace is young SA Talented DJ/Producer, Who Loves Music and The People Around Him (Family,Friends) But Most Importantly FANS",
         "NAME":"DJ ACE SA",
         "IMAGE":"https://mp3afric.com/wp-content/uploads/2018/02/dj-ace-valentines-month-the-uncut-house-mix.jpg",
+        "DESCRIPTION":"Ace is young SA Talented DJ/Producer, Who Loves Music and The People Around Him (Family,Friends) But Most Importantly FANS",
         "LOCATION":"Pretoria ,Gauteng,South Africa",
-        "EMAIL":"djacesa@gmail.com"
+        "EMAIL":"djacesa@gmail.com",
+		"CONTACT":"N/A",
+        "Clip Link":" "
    },
    {
        "ID":12,
-       "DESCRIPTION":"Beat Movemoment formed by",
        "NAME":"BEAT MOVEMENT",
        "IMAGE":"https://i0.wp.com/hiphopza.com/wp-content/uploads/2018/03/Beat-Movement-Shebeleza-Dr-Malinga.jpg",
+       "DESCRIPTION":"Beat Movemoment formed by",
        "LOCATION":"siyabuswa,mpumalanga ,South Africa",
-       "EMAIL":"beatmovementdjays@gmail.com"
+       "EMAIL":"beatmovementdjays@gmail.com",
+	   "CONTACT":"N/A",
+       "Clip Link":" "
    },
 
     {
         "ID":14,
-        "DESCRIPTION":"Born as Nonqaba Nozuko Rwaxa to a Xhosa father and Zulu mother, Ms Cosmo lived the first six years of her life in Diepkloof, Soweto, before her family moved to the northern suburbs of Johannesburg.",
         "NAME":"Ms COSMO",
         "IMAGE":"https://www.peoplemagazine.co.za/wp-content/uploads/2018/02/Ms-Cosmo-.jpg",
+        "DESCRIPTION":"Born as Nonqaba Nozuko Rwaxa to a Xhosa father and Zulu mother, Ms Cosmo lived the first six years of her life in Diepkloof, Soweto, before her family moved to the northern suburbs of Johannesburg.",
         "LOCATION":"Northern suburb of Johannesburg,South Africa",
-        "EMAIL":"bookings@djsproduction.co.za"
+        "EMAIL":"bookings@djsproduction.co.za",
+		"CONTACT":"N/A",
+        "Clip Link":"https://youtu.be/GB83DGg0ADI"
     },
     {
         "ID":15,
-        "DESCRIPTION":"Hypesoul is a young award-winning talented DJ/Producer born in the east rand(Tembisa).",
         "NAME":"HYPERSOUL DJ",
         "IMAGE":"https://zamusic.org/wp-content/uploads/2018/03/Hypesoul-%e2%80%93-Zamaru.jpg",
+        "DESCRIPTION":"Hypesoul is a young award-winning talented DJ/Producer born in the east rand(Tembisa).",
         "LOCATION":"Tembisa,East Rand",
         "EMAIL":"Hypesoulmusic@gmail.com/082 751 9422",
+		"CONTACT":"N/A",
         "Clip Link":"https://www.facebook.com/Hypesouldj/videos/vb.138713769634285/896069447232043/?type=2&theater"
 
     },
     {
         "ID":16,
-        "DESCRIPTION":"Electronic dance music DJ and producer who is known for the songs Yonkinto, Wajellwa,and Friend Zone.",
         "NAME":"PRINCE KAYBEE",
         "IMAGE":"http://botswanaunplugged.com/wp-content/uploads/2018/01/prince-kaybee.jpg",
+        "DESCRIPTION":"Electronic dance music DJ and producer who is known for the songs Yonkinto, Wajellwa,and Friend Zone.",
         "LOCATION":"Bloemfoteni,Free State",
         "EMAIL":"bookings@princekaybee.com or brandmanager@princekaybee.com",
+		"CONTACT":"N/A",
         "Clip Link":"https://www.youtube.com/watch?v=-9G8E5CacRs"
 
     },
     {
         "ID":17,
-        "DESCRIPTION":"DJ Speedsta” has become a household name in the social scenes, an alias belonging to 22 year old Lesego Nkaiseng.",
         "NAME":"DJ SPEEDSTA SA ",
         "IMAGE":"https://image.redbull.com/rbcom/010/2016-07-28/1331808971579_2/0010/1/1500/1000/1/speedsta.jpg",
+        "DESCRIPTION":"DJ Speedsta” has become a household name in the social scenes, an alias belonging to 22 year old Lesego Nkaiseng.",
         "LOCATION":"Vaal,North West",
         "EMAIL":"bookings@djspeedsta.joburg",
-        "Clip Link":"https://www.youtube.com/watch?v=C2wriEj1IWA"
+		"CONTACT":"N/A",
+        "Clip Link":"https://youtu.be/C2wriEj1IWA"
     },
     {
          "ID":18,
-         "NAME":"DJ ClEO",
+         "NAME":"DJ CLEO",
          "IMAGE":"https://zgossip.co.zw/wp-content/uploads/2017/03/dj-cleo.jpg",
          "DESCRIPTION":"Tlou Cleopas Monyepao professionally known as DJ Cleo, is a South African award-winning Kwaito and House producer from Gauteng and the founder of Will Of Steel Productions.",
          "LOCATION":"Vosloorus,Gauteng,SA",
-         "EMAIL":"bookings@djcleo.co.za"
+         "EMAIL":"bookings@djcleo.co.za",
+		 "CONTACT":"N/A",
+         "Clip Link":"https://youtu.be/yQemufaSAxY"
     },
     {
          "ID":19,
@@ -145,7 +174,9 @@
          "IMAGE":"https://peepsouth.files.wordpress.com/2013/11/unnamed-3.jpg",
          "DESCRIPTION":"Kholile Elvin Gumede better known as DJ Clock is a South African DJ and record producer.",
          "LOCATION":"Vosloorus,Gauteng,SA",
-         "EMAIL":"bookings@djclock.co.za"
+         "EMAIL":"bookings@djclock.co.za",
+		 "CONTACT":"N/A",
+         "Clip Link":"https://youtu.be/u1oW8VDvzu8"
     },
     {
          "ID":20,
@@ -153,7 +184,9 @@
          "IMAGE":"https://1.bp.blogspot.com/-9YH2innVZ24/V4Zg55QaVRI/AAAAAAAADdo/iKUVjhfI6HIwxZuoZNKx7DwepJwcOlbnwCLcB/s1600/Dj%25252BKent-Evolution%25252BX-by-afrika-new-music-Xclusive.jpg",
          "DESCRIPTION":"DJ Kent whose real name is Khensani Mabaso was born in Pimville, Soweto, South Africa.",
          "LOCATION":"pimville soweto",
-         "EMAIL":"bookings@djkent.co.za"
+         "EMAIL":"bookings@djkent.co.za",
+		 "CONTACT":"N/A",
+         "Clip Link":"https://youtu.be/diLHWxaYouU"
     },
     {
          "ID":21,
@@ -161,7 +194,9 @@
          "IMAGE":"http://idmmag.com/wp-content/uploads/2017/01/06.jpg",
          "DESCRIPTION":"Sbu Leop (also known as DJ Sbu)is a south African radio DJ and television presenter also an author and philanthropist",
          "LOCATION":"Johannesburg,SA",
-         "EMAIL":"bookings@production.co.za"
+         "EMAIL":"bookings@production.co.za",
+		 "CONTACT":"N/A",
+         "Clip Link":"https://youtu.be/wKPdcG1Azyk"
     },
     {
          "ID":22,
@@ -169,7 +204,9 @@
          "IMAGE":"http://www.fameafrica.tv/wp-content/uploads/2018/02/DJ-Zinhle-1.png",
          "DESCRIPTION":"DJ Zinhle is a South African deejay who served as the resident DJ on the SABC1 music show Jika Majika and hosted her own radio show on YFM.",
          "LOCATION":"Dannhauser, KZN, South Africa.",
-         "EMAIL":"bookings@djzinhle.com"
+         "EMAIL":"bookings@djzinhle.com",
+		 "CONTACT":"N/A",
+         "Clip Link":"https://youtu.be/SbDHmQiE_Dk"
     },
     {
          "ID":23,
@@ -177,7 +214,9 @@
          "IMAGE":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/DJ_Qness.jpg/1920px-DJ_Qness.jpg",
          "DESCRIPTION":"Qhubani Ndlovu, also known as DJ Qness, is a South African DJ, recording artist and record producer.",
          "LOCATION":"Vereening South Africa",
-         "EMAIL":""
+         "EMAIL":"pleasure@theinqgroup.com",
+		 "CONTACT":"N/A",
+         "Clip Link":" "
     },
     {
          "ID":24,
@@ -185,7 +224,9 @@
          "IMAGE":"https://www.chronicle.co.zw/wp-content/uploads/sites/3/2016/08/Dj-Tira.jpg",
          "DESCRIPTION":"",
          "LOCATION":"Durban,SA",
-         "EMAIL":"events@afrotainment.co.za"
+         "EMAIL":"events@afrotainment.co.za",
+		 "CONTACT":"N/A",
+         "Clip Link":"https://youtu.be/gJRREXd3JF8"
      },
      {
          "ID":25,
@@ -193,7 +234,9 @@
          "IMAGE":"http://notjustok.com/southafrica/wp-content/uploads/sites/4/2016/12/Capture.png",
          "DESCRIPTION":"Popular African DJ who initially rose to fame competing in numerous music production competitions around the world.",
          "LOCATION":"Johannesburg, SA",
-         "EMAIL":"bookings@milkshake.dj"       
+         "EMAIL":"bookings@milkshake.dj",
+		 "CONTACT":"N/A",
+         "Clip Link":"https://youtu.be/n3wDCSMQB0A"   
     },
     {
         "ID":26,
@@ -203,7 +246,87 @@
         "LOCATION":"Johannesburg, South Africa",
         "EMAIL":"bookings@djshimza.com",
         "CONTACT":"011 924 6014",
-        "INTERNATIONAL":"costi@thinkclubbin.com"
+        "INTERNATIONAL":"costi@thinkclubbin.com",
+        "Clip Link":"https://youtu.be/7Yt0exC_tQ4"
+    },
+    {
+        "ID":27,
+        "NAME":"LULO CAFE",
+        "IMAGE":"https://mjandstuff.files.wordpress.com/2012/05/head-honcho2.jpg",
+        "DESCRIPTION":"Sikhululo Maliwa  was born in Eastern Cape, South Africa.He is a DJ,house musician and DJ best known for his 2009 album relase Deep House Chronicles 2.",
+        "LOCATION":"Johannesburg, Randburg",
+        "EMAIL":"bonang@lulocafe.com",
+        "CONTACT":"0715199905",
+        "Clip Link":"https://youtu.be/cABlL3iWG8o"
+
+    },
+ {
+        "ID":28,
+        "NAME":"VINNY DA VINIC",
+        "IMAGE":"http://lestimes.com/wp-content/uploads/2016/06/DJ-Vinny-Da-Vinci..jpg ",
+        "DESCRIPTION":"Vincent Motshegoa With just over two decades of deejaying under his belt, Vinny Da Vinci is one of the most.important figures on the South African electronic dance music scene.",
+        "GENRES":"Deep House/Electronic and Dance",
+        "LOCATION":"Pretoria,SA",
+        "EMAIL":":bookings@djsproduction.co.za",
+		"CONTACT":"N/A",
+        "Clip Link":"https://youtu.be/JMwac4ClC4E"
+
+    },
+{
+        "ID":29,
+        "NAME":"DJ THULI P",
+        "IMAGE":"https://pbs.twimg.com/media/DGLCCQyXcAUCRJl.jpg",
+        "DESCRIPTION":"Thulisile Phongolo was born on 22nd January 1994. She is an actress, TV Personality, DJ and voice over artist.She is popularly known for her role as Namhla Diale in the soap Generations",
+        "LOCATION":"Johannesburg,SA.",
+        "EMAIL":"Info@thulip.com",
+		"CONTACT":"N/A",
+        "Clip Link":"https://youtu.be/Y6AGkz7WX7o"
+
+    },
+ {
+        "ID":30,
+        "NAME":"RALF GUM",
+        "IMAGE":"https://kasilyrics.co.za/wp-content/uploads/2015/10/Screen-Shot-2015-10-30-at-4.48.24-PM.png",
+        "DESCRIPTION":"Ralf GUM’s music career dates back to 1990 when he started out as a DJ before establishing himself,three years later as a full-on institution within the industry with own productions.",
+        "LOCATION":"Johannesburg,SA",
+        "CONTACT":"+27 860 846 377",
+        "Clip Link":"https://youtu.be/B0Fr_Wtuuc4"
+
+    },
+{
+        "ID":31,
+        "NAME":"DJ WARONA",
+        "IMAGE":"https://i.ytimg.com/vi/1BcEzU0Wj-A/maxresdefault.jpg",
+        "DESCRIPTION":"Warona Odhelia Dube is the Africa's very Own 'Princess Of House Music'.She is a South African dj, song writer and Producer.alf GUM’s music career dates back to 1990 when he started out as a DJ before establishing himself,three years later as a full-on institution within the industry with own productions.",
+        "LOCATION":"Mahikeng",
+       "CONTACT":"0725529163",
+        "Clip Link":"https://youtu.be/fjibHs1Wa7M"
+
+    },
+    {
+        "ID":33,
+        "NAME":"DJ BUCKS",
+        "IMAGE":"http://www.sgubhu.net/sites/default/files/styles/artist_page_300_x_480/public/DJ-Buckz-MTV-MAMA14_0.jpg?itok=oya4T58T.jpg",
+        "DESCRIPTION":"DeeJay Buckz is an artist, dj, song writer , Producer and choreographer well known for the hit songs: ytjukutja, lahla, nyoso, ko morago and many more.... ",
+        "LOCATION":"Pretoria,SA",
+        "GENRES":"Dance/Electronic,Pop",
+        "EMAIL":"Deejaybuckz66@gmail.com",
+        "CONTACT":"0813401356",
+        "Clip Link":"https://youtu.be/UX6Nf9M4dPM"
+
+    },
+{
+        "ID":34,
+        "NAME":"DJ CNDO",
+        "IMAGE":"https://lastfm-img2.akamaized.net/i/u/ar0/aeb5966d2c6042e2b7307bdd92747acd.jpg",
+        "DESCRIPTION":"Real name Sindisiwe Zungu born 1984 at Mandeni just 45mins outside of Durban next to the great river Uthukela.After that she started playing in most Durbans Finest parties around Durban. DJ Cndo has played at Tilt, 144, Skyybar, Exclusive Lounge, Havana, to name but a few clubs in Durban. ",
+        "LOCATION":"Durban,SA",
+        "EMAIL":"events@afrotainment.co.za",
+        "CONTACT": "0728402010",
+        "Clip Link":"https://youtu.be/UYHZgzizeUU"
+
     }
+
+
   ]
 }

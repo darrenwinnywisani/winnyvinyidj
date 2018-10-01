@@ -4,6 +4,7 @@ import { ViewDetailsPage } from './../view-details/view-details';
 import { AuthProvider } from '../../providers/auth/auth';
 import { OnboardingPage } from '../onboarding/onboarding';
 import { ViewCatalogProvider } from '../../providers/view-catalog/view-catalog';
+import { ListDjProvider } from '../../providers/list-dj/list-dj';
 
 
 
@@ -14,39 +15,37 @@ import { ViewCatalogProvider } from '../../providers/view-catalog/view-catalog';
 export class HomePage {
   
   public isSearchbarOpened=false;
-
-  topics=[];
+  searchDj:string="";
+  filteredDjs=[];
+  tampArr=[];
+  djs:any;
   dj:any;
   arrayDJ=[];
-  constructor(public navCtrl: NavController,private auth:AuthProvider,private viewDJ:ViewCatalogProvider) {
-     this.generateTopics();
+  constructor(public navCtrl: NavController,private viewDjprofile:ListDjProvider, private auth:AuthProvider,private viewDJ:ViewCatalogProvider) {
      viewDJ.getDJs().subscribe(results=>{
        this.dj=results;
        this.arrayDJ=this.dj.vinylDJ;
+       this.filteredDjs=this.arrayDJ;
+       this.tampArr=this.arrayDJ;
        console.log("response",results);
      })
   }
-
-  
-  generateTopics(){
-    this.topics=["Dj clock","DJ balck Coffee","Dj ganyani"];
-  }
-
-  getTopics(ev:any){
-     this.generateTopics();
-     let serVal=ev.target.value;
-      if(serVal && serVal.trim() !=''){
-         this.topics=this.topics.filter((topic)=>{
-           return (topic.toLowerCase().indexOf(serVal.toLowerCase))>-1
-         });
+  searchDJ(searchbar){
+    this.filteredDjs=this.tampArr;
+    var q=searchbar.target.value;
+    if(q.trim()==''){
+        return;
+    }
+    this.filteredDjs=this.filteredDjs.filter((v)=>{
+      if((v.NAME.toLowerCase().indexOf(q.toLowerCase()))>-1){
+         return true;
       }
+      return false;
+    })
   }
-   goToDetails(){
-    this.navCtrl.push(ViewDetailsPage);
+  gotoViewDetails(i:number){
+    this.viewDjprofile.addDjProfile(i);
+    this.navCtrl.setRoot(ViewDetailsPage);
   }
 
-
-  onSearch(event){
-    
-  }
 }

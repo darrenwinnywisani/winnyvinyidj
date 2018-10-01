@@ -2,8 +2,13 @@ page-home {
     .search{
         background-color: white;
     }
+    .imgs{
+        height:110px;
+        width: 150px;
+    }
     .img{
-        height:200px;
-        width: 250px;
+        border-radius:50%;
+         height: 90px;
+         width: 100px; 
     }
 }
