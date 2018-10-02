@@ -1,4 +1,4 @@
-import { UserprofilePage } from './../pages/userprofile/userprofile';
+
 import { SignupPage } from './../pages/signup/signup';
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
@@ -18,16 +18,17 @@ import { LoginPage } from '../pages/login/login';
 import { ViewCatalogProvider } from '../providers/view-catalog/view-catalog';
 import { HttpClientModule } from '@angular/common/http';
 import { ListDjProvider } from '../providers/list-dj/list-dj';
-
+import { AccountPage } from '../pages/account/account';
+import {BookingPage} from '../pages/booking/booking';
 
 
 export const config = {
-  apiKey: "AIzaSyDLHFkSNF8TD6wR6x4-dWNiFZe6CFL4s4I",
-  authDomain: "vinyldjapp.firebaseapp.com",
-  databaseURL: "https://vinyldjapp.firebaseio.com",
-  projectId: "vinyldjapp",
-  storageBucket: "vinyldjapp.appspot.com",
-  messagingSenderId: "256212778849"
+  apiKey: "AIzaSyB6wFnNa8EY1IRpags_2tUXbo9qbe2HPx0",
+  authDomain: "vinyl-8fb36.firebaseapp.com",
+  databaseURL: "https://vinyl-8fb36.firebaseio.com",
+  projectId: "vinyl-8fb36",
+  storageBucket: "vinyl-8fb36.appspot.com",
+  messagingSenderId: "973224201180"
 };
 firebase.initializeApp(config);
 
@@ -42,8 +43,9 @@ firebase.initializeApp(config);
     ResetPage,
     SignupPage,
     LoginPage,
-    UserprofilePage,
-    ViewDetailsPage
+    AccountPage,
+    ViewDetailsPage,
+    BookingPage
 
   ],
   imports: [
@@ -62,7 +64,8 @@ firebase.initializeApp(config);
     ResetPage,
     LoginPage,
     SignupPage,
-    UserprofilePage,
+    AccountPage,
+    BookingPage,
   ],
 
   providers: [

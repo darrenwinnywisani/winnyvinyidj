@@ -1,6 +1,6 @@
 
 import { SignupPage } from './../pages/signup/signup';
-import { UserprofilePage } from './../pages/userprofile/userprofile';
+import { AccountPage } from './../pages/account/account'
 import { OnboardingPage } from './../pages/onboarding/onboarding';
 import { Component, ViewChild } from '@angular/core';
 import { Nav, Platform} from 'ionic-angular';
@@ -10,6 +10,8 @@ import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { AuthProvider } from '../providers/auth/auth';
 import { LoginPage } from '../pages/login/login';
+
+
 @Component({
   templateUrl: 'app.html'
 })
@@ -18,17 +20,19 @@ export class MyApp {
   rootPage: any = OnboardingPage;
 
   private HomePage;
-  private UserprofilePage;
+  private AccountPage;
   private SignupPage;
   private LoginPage;
+
+
 
   constructor(public platform: Platform,public statusBar: StatusBar, public splashScreen: SplashScreen,private auth:AuthProvider) {
     this.initializeApp();
     this.HomePage =HomePage;
-    this.UserprofilePage= UserprofilePage;
+    this.AccountPage= AccountPage;
     this.SignupPage = SignupPage;
     this.LoginPage = LoginPage;
-
+    
 
   }
 

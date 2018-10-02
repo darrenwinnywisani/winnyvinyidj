@@ -57,7 +57,8 @@ export class SignupPage {
 {
   {
     let alert: Alert =this.alertCTR.create({
-      message:" Congratulations ",
+      
+      subTitle:'You have successfully signed up',
       buttons:[{
         text:'OK',
         handler:data=>{

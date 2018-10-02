@@ -24,13 +24,15 @@ export class ListDjProvider {
   }
   addDjProfile(i:number){
      this.viewProfileDJ.push(this.view[i]);
-    
      console.log("view",this.viewProfileDJ);
+  }
+  getfilteredDj(){
+     return this.viewProfileDJ;
   }
   getAddedDj():any{
      return this.viewProfileDJ;
   }
-  removeDJ(i:number){
-     this.viewProfileDJ.splice(i,1);
+  removeDJ(){
+     this.viewProfileDJ.splice(1,1);
   }
 }

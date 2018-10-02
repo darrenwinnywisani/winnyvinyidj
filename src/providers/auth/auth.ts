@@ -1,8 +1,9 @@
 import { Injectable } from '@angular/core';
-import firebase from 'firebase/app';
 import 'firebase/auth';
 import 'firebase/database';
 import 'rxjs/add/operator/map';
+import firebase, { User } from 'firebase/app';
+import 'firebase/database'
 /*
   Generated class for the AuthProvider provider.
 
@@ -12,7 +13,22 @@ import 'rxjs/add/operator/map';
 @Injectable()
 export class AuthProvider {
 
+  userProfile:firebase.database.Reference;
+  currentUser:User;
+
   constructor() {
+
+    firebase.auth().onAuthStateChanged(user=>{
+      if(user){
+      this.currentUser =user;
+      this.userProfile=firebase.database().ref(`userProfile/${user.uid}`)
+      }
+    })
+    console.log('Hello ProfilerProvider Provider');
+  }
+
+  getUserProfile():firebase.database.Reference{
+    return this.userProfile
   }
   signOut():Promise<any>{
     return firebase.auth().signOut();
@@ -39,4 +55,11 @@ signUp(email:string,password:string):Promise<any> {
       throw new Error(error);
     })
   }
+
+
+  Register():Promise<any>{
+    return firebase.auth().signOut();
+  }
 }
+
+

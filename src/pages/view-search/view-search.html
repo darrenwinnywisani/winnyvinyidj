@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+      <ion-buttons style="float:left">
+          <button ion-button icon-only (click)="goback()" ><ion-icon name="md-arrow-round-back"></ion-icon></button>
+      </ion-buttons><ion-title align="center">DJ Profile</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+  <ion-card *ngFor='let djs of arrayDJ; let i=index'>
+    <ion-card-content align="center">   
+      <img class="circle-pic" src="{{djs.IMAGE}}" />
+      <h1>{{djs.NAME}}</h1>
+      <p>{{djs.DESCRIPTION}}</p>
+      <h2>Location:{{djs.LOCATION}}</h2>
+      <h2>Email:{{djs.EMAIL}}</h2>
+      <h2>Contact:{{djs.CONTACT}}</h2>
+      <h2>{{djs.CLIP}}</h2>
+    </ion-card-content>
+</ion-card>
+<button ion-button block round (click)="GetBooking()">Booking </button>     
+</ion-content>

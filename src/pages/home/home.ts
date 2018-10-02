@@ -17,6 +17,8 @@ export class HomePage {
   public isSearchbarOpened=false;
   searchDj:string="";
   filteredDjs=[];
+  searchArray=[];
+  searchstring:string;
   tampArr=[];
   djs:any;
   dj:any;
@@ -34,14 +36,22 @@ export class HomePage {
     this.filteredDjs=this.tampArr;
     var q=searchbar.target.value;
     if(q.trim()==''){
+      
         return;
     }
     this.filteredDjs=this.filteredDjs.filter((v)=>{
-      if((v.NAME.toLowerCase().indexOf(q.toLowerCase()))>-1){
+      if((v.NAME.toLowerCase().indexOf(q.toLowerCase()))>-1){ 
+        // this.viewDjprofile.viewProfileDJ=[];
+        // this.viewDjprofile.viewProfileDJ.push(v);
+        console.log('v',this.viewDjprofile.viewProfileDJ);
          return true;
       }
       return false;
     })
+  }
+  search(i:number){
+    this.viewDjprofile.addDjProfile(i);
+    this.navCtrl.setRoot(ViewDetailsPage);
   }
   gotoViewDetails(i:number){
     this.viewDjprofile.addDjProfile(i);
